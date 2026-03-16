@@ -1,1 +1,0 @@
-# Algoritmos.2026
