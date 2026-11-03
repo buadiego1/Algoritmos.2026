@@ -1,7 +1,10 @@
+import json
 from random import shuffle
 
-from pokemon_data import pokemons
 from tree import BinaryTree
+
+with open('pokemon_data.json', encoding='utf-8') as file:
+    pokemons = json.load(file)
 
 arbol_nombre = BinaryTree()
 arbol_numero = BinaryTree()

@@ -21,6 +21,17 @@ class Stack:
             value = stack_aux.pop()
             print(value)
         
+        # stack_aux = Stack()
+
+        # while self.size() > 0: 
+        #     value = self.pop()
+        #     print(value)
+        #     stack_aux.push(value)
+        
+        # while stack_aux.size() > 0: 
+        #     value = stack_aux.pop()
+        #     self.push(value)
+        
     def size(self) -> int:
         return len(self.__elements)
     
